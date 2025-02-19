@@ -1,0 +1,57 @@
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+  background: #222831;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  color: #00ADB5;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 25px;
+  margin: 50px auto;
+  font-size: 0.9rem;
+  background: #00ADB5;
+  padding: 1rem;
+  color: #222831;
+  cursor: pointer;
+}
+
+.header h3{
+  color: #00FFFF;
+}
+
+.header .nav-link{
+  color: #00ADB5; 
+}
+
+.band-heading {
+ padding-top: 100px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.text-body-secondary svg {
+  fill: #00ADB5;
+}
+
+
